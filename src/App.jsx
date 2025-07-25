@@ -158,13 +158,20 @@ export default function HomePage() {
 
 
         <footer className="footer">
-          <div className="footer-content">
-            <p>&copy; {new Date().getFullYear()} Get VA Buddy · DAV Chapter 18 · Augusta, GA</p>
-            <p className="disclaimer">
-              This site is not affiliated with the U.S. Department of Veterans Affairs. It was created to support veterans and their families.
-            </p>
-          </div>
-        </footer>
+  <div className="footer-content">
+    <p>&copy; {new Date().getFullYear()} Get VA Buddy · DAV Chapter 18 · Augusta, GA</p>
+    <p className="disclaimer">
+      This site is not affiliated with the U.S. Department of Veterans Affairs. It was created to support veterans and their families.
+    </p>
+    <p>
+      Connect with DAV Chapter 18:{" "}
+      <a href="https://pinkertonwilliams.org" target="_blank" rel="noopener noreferrer">
+        pinkertonwilliams.org
+      </a>
+    </p>
+  </div>
+</footer>
+
       </main>
 
       <Analytics />

@@ -166,6 +166,18 @@ p {
   opacity: 0.9;
 }
 
+.footer a {
+  color: #fff; /* white */
+  text-decoration: underline;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: #b3d4fc; /* light blue on hover/focus */
+  outline: none;
+}
+
+
 .va-contact {
   background-color: #eaf0f6;
   padding: 1.5rem;
