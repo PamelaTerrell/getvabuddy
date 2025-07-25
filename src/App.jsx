@@ -58,7 +58,7 @@ export default function HomePage() {
               </a>
             </li>
             <li>
-              <a href="https://www.vba.va.gov/pubs/forms/VBA-21-0781a-ARE.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.vba.va.gov/pubs/forms/VBA-21-0781-ARE.pdf" target="_blank" rel="noopener noreferrer">
                 <FaPrint className="print-icon" /> VA Form 21-0781a – PTSD Secondary Claim
               </a>
             </li>
