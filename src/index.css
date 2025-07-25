@@ -1,0 +1,138 @@
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Roboto, system-ui, sans-serif;
+  font-size: 16px;        /* Comfortable default size */
+  line-height: 1.6;
+  background-color: #f5f8fa;
+  color: #222;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  color: #222;
+}
+
+.hero {
+  background-color: #003366; /* VA navy */
+  color: #fff;
+  padding: 3rem 1.5rem 2rem;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+
+.hero .tagline {
+  color: whitesmoke;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+.intro p {
+  background-color: #eaf0f6;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.va-forms h2 {
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+.va-forms ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.va-forms li {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.form-list li {
+  margin-bottom: 1.5rem; /* Increased vertical spacing */
+}
+
+.form-list a,
+.va-forms a {
+  color: #005ea2;
+  text-decoration: none;
+  font-weight: 600;           /* Slightly bolder */
+  font-size: 1.1rem;          /* Larger font for readability */
+  line-height: 1.5;           /* More vertical spacing */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.form-list a:hover,
+.form-list a:focus,
+.va-forms a:hover,
+.va-forms a:focus {
+  color: #003f73;
+  text-decoration: underline;
+  outline: none;
+}
+
+.print-icon {
+  margin-right: 0.5rem;
+  color: #005ea2;
+  vertical-align: middle;
+}
+
+.note {
+  margin-left: 2rem;
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
+.mailing-address {
+  background: #f3f7fb;
+  padding: 1rem;
+  border-left: 4px solid #002654;
+  margin: 2rem 0;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.mailing-address h2 {
+  margin-top: 0;
+  color: #004080;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+}
