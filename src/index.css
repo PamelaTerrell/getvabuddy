@@ -166,3 +166,30 @@ p {
   opacity: 0.9;
 }
 
+.va-contact {
+  background-color: #eaf0f6;
+  padding: 1.5rem;
+  border-left: 4px solid #005ea2;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+.va-contact h2 {
+  margin-top: 0;
+  color: #003366;
+}
+
+.va-contact a {
+  color: #005ea2;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.va-contact a:hover,
+.va-contact a:focus {
+  color: #003f73;
+  text-decoration: underline;
+}
+
+

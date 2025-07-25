@@ -117,19 +117,45 @@ export default function HomePage() {
           </p>
         </section>
 
-        <section>
-          <h2>Need Help?</h2>
-          <p>
-            If you're unsure which form to use or how to complete it, help is available. Ask someone you trust, reach out to a Veteran Service Officer (VSO), or visit your local VA office for guidance.
-          </p>
-        </section>
+       
+        <section className="va-contact">
+  <h2>Need More Help?</h2>
+  <p>
+    You can speak directly with someone at the VA by calling the Veterans Affairs main line:
+    <strong> 1-800-827-1000</strong> (Monday–Friday, 8:00 a.m.–9:00 p.m. ET).
+  </p>
 
-        <section className="about-section">
+  <p>
+    Visit the official VA website for more information:{" "}
+    <a href="https://www.va.gov" target="_blank" rel="noopener noreferrer">
+      www.va.gov
+    </a>
+  </p>
+
+  <p>
+    To access many of your benefits and services online, you can get started by signing in or registering at VA.gov using ID.me:
+    <br />
+    <a
+      href="https://www.va.gov/sign-in/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="idme-link"
+    >
+      Sign in or register at VA.gov with ID.me
+    </a>
+  </p>
+</section>
+
+        
+
+
+      <section className="about-section">
           <h2>Why This Site Was Created</h2>
           <p>
             This site was created in connection with <strong>DAV Chapter 18 in Augusta, GA</strong>, born out of a need we see all too often—older veterans and dedicated service officers who don’t have the computer skills or tools to access critical VA forms and benefits online. Our goal is to make it as simple as possible to get the help you’ve earned, without frustration or confusion.
           </p>
         </section>
+
 
         <footer className="footer">
           <div className="footer-content">
