@@ -40,3 +40,45 @@
 .read-the-docs {
   color: #888;
 }
+
+.form-request {
+  background: #f0f6fb;
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid #003366;
+  margin: 2rem 0;
+}
+
+.form-request label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #003366;
+}
+
+.form-request input[type="text"],
+.form-request textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+.form-request button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #005ea2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form-request button:hover {
+  background-color: #003f73;
+}
+
