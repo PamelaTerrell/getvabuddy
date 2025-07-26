@@ -103,6 +103,41 @@ export default function HomePage() {
           </p>
         </section>
 
+        <section className="va-travel">
+          <h2>Travel Reimbursement for VA Appointments</h2>
+          <p>
+            Veterans may be eligible for mileage reimbursement and travel expense
+            reimbursement when traveling to and from VA medical appointments.
+            There are two ways to submit a claim:
+          </p>
+          <ul className="form-list">
+            <li>
+              <a
+                href="https://access.va.gov/accessva/?csp=btsss"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaPrint className="print-icon" /> Submit a Travel Claim Online via BTSSS (AccessVA)
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.va.gov/find-forms/about-form-10-3542/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaPrint className="print-icon" /> VA Form 10-3542 – Reimbursement of Travel Expenses (Downloadable PDF)
+              </a>
+            </li>
+          </ul>
+          <p>
+            You must submit your travel claim within 30 days of the appointment. You can log in using ID.me, Login.gov, DS Logon, or a VA PIV card.
+            If you prefer not to use the online system, you may download the form above and return it to your VA facility in person or by mail.
+          </p>
+        </section>
+
+
+
         <section>
           <h2>Mailing Address for VA Claims</h2>
           <p>Send your completed forms to:</p>
