@@ -170,7 +170,18 @@ export default function HomePage() {
       </a>
     </p>
   </div>
+
+   {/* Attribution section */}
+   <div className="image-attribution">
+    <img src="/buddy.png" alt="Buddy Icon" style={{ width: '50px', marginRight: '10px' }} />
+    <p className="attribution-text">
+      Icon made by <a href="https://www.freepik.com" target="_blank" rel="noopener noreferrer">Freepik</a> 
+    </p>
+  </div>
 </footer>
+
+
+
 
       </main>
 
