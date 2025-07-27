@@ -184,12 +184,21 @@ export default function HomePage() {
         
 
 
-      <section className="about-section">
-          <h2>Why This Site Was Created</h2>
-          <p>
-            This site was created in connection with <strong>DAV Chapter 18 in Augusta, GA</strong>, born out of a need we see all too often—older veterans and dedicated service officers who don’t have the computer skills or tools to access critical VA forms and benefits online. Our goal is to make it as simple as possible to get the help you’ve earned, without frustration or confusion.
-          </p>
-        </section>
+<div style={{ textAlign: 'center', marginTop: '2rem' }}>
+  <a href="https://pinkertonwilliams.org" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="/og-image.png" 
+      alt="DAV Chapter 18 Logo" 
+      style={{ maxWidth: '300px', width: '100%', height: 'auto', marginBottom: '1rem', cursor: 'pointer' }} 
+    />
+  </a>
+  <p style={{ fontSize: '1.25rem', maxWidth: '600px', margin: '0 auto', padding: '0 1rem' }}>
+    <strong>Get VA Buddy</strong> was created by <strong>DAV Chapter 18 in Augusta, GA</strong> 
+    to help veterans who prefer paper forms over digital tools. We offer easy access to commonly used VA forms — no logins or confusing websites.
+  </p>
+</div>
+
+
 
 
         <footer className="footer">
