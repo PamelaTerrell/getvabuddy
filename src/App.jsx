@@ -193,7 +193,7 @@ export default function HomePage() {
     />
   </a>
   <p style={{ fontSize: '1.25rem', maxWidth: '600px', margin: '0 auto', padding: '0 1rem' }}>
-    <strong>Get VA Buddy</strong> was created by <strong>DAV Chapter 18 in Augusta, GA</strong> 
+    <strong>Get VA Buddy</strong> was created by <strong>DAV Chapter 18 in Augusta, GA </strong>  
     to help veterans who prefer paper forms over digital tools. We offer easy access to commonly used VA forms — no logins or confusing websites.
   </p>
 </div>
