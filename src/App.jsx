@@ -28,6 +28,17 @@ export default function HomePage() {
           <h2>Common VA Forms</h2>
           <ul className="form-list">
             <li>
+  <a
+    href="https://www.va.gov/find-forms/about-form-22-5490/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaPrint className="print-icon" /> VA Form 22-5490 - Chapter 35 , Education Benefits for Survivors and Dependents
+  </a>
+</li>
+
+
+            <li>
               <a href="https://www.va.gov/find-forms/about-form-21-526ez/" target="_blank" rel="noopener noreferrer">
                 <FaPrint className="print-icon" /> VA Form 21-526EZ – Disability Compensation Claim
               </a>
