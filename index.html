@@ -2,42 +2,103 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/buddy.png" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Get VA Buddy | VA Forms for Veterans Who Prefer Paper</title>
 
-    <!-- SEO Description -->
+    <!-- Primary SEO -->
     <meta name="description" content="Get VA Buddy is a one-stop hub for veterans — especially those who struggle with technology — to easily access essential VA forms, benefits info, and guidance." />
-    <link rel="canonical" href="https://getvabuddy.com" />
-    <meta name="theme-color" content="#002b45" />
+    <link rel="canonical" href="https://getvabuddy.com/" />
+    <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#0b3d59" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#002b45" />
 
-    <!-- Open Graph (for social sharing) -->
-    <meta property="og:title" content="Get VA Buddy: Simplifying VA Forms for Veterans" />
-    <meta property="og:description" content="A simple, trusted resource for veterans who prefer paper — access and download common VA forms without the hassle." />
-    <meta property="og:image" content="https://getvabuddy.com/buddy.png" />
-    <meta property="og:url" content="https://getvabuddy.com" />
+    <!-- Icons / PWA -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="application-name" content="Get VA Buddy" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Get VA Buddy" />
+
+    <!-- Open Graph (social preview) -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Get VA Buddy" />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://getvabuddy.com/" />
+    <meta property="og:title" content="Get VA Buddy — Simplifying VA Forms for Veterans" />
+    <meta property="og:description" content="A trusted resource for veterans who prefer paper — access and download common VA forms without the hassle." />
+    <meta property="og:image" content="https://getvabuddy.com/og-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Gold handshake logo for Get VA Buddy on navy background" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Get VA Buddy: Simplifying VA Forms for Veterans" />
-    <meta name="twitter:description" content="A trusted hub for Gulf War, Vietnam, and older veterans to access and print VA forms without frustration." />
-    <meta name="twitter:image" content="https://getvabuddy.com/buddy.png" />
+    <meta name="twitter:title" content="Get VA Buddy — Simplifying VA Forms for Veterans" />
+    <meta name="twitter:description" content="A simple hub for Gulf War, Vietnam, and older veterans to access and print VA forms without frustration." />
+    <meta name="twitter:image" content="https://getvabuddy.com/og-card.png" />
+
+    <!-- Preconnect for GA performance -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Get VA Buddy",
+      "url": "https://getvabuddy.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://getvabuddy.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Get VA Buddy",
+      "url": "https://getvabuddy.com/",
+      "logo": "https://getvabuddy.com/android-chrome-512x512.png"
+    }
+    </script>
   </head>
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JX7173PQMX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JX7173PQMX');
-</script>
-
   <body>
+    <!-- Google tag (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JX7173PQMX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent','default',{
+        'analytics_storage':'granted',
+        'ad_storage':'denied',
+        'ad_user_data':'denied',
+        'ad_personalization':'denied',
+        'wait_for_update':500
+      });
+      gtag('js', new Date());
+      gtag('config', 'G-JX7173PQMX');
+    </script>
+
+    <!-- App mount -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- No-JS fallback -->
+    <noscript>
+      <style>
+        body {font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin:2rem; line-height:1.5;}
+        h1 {color:#e5b640;}
+      </style>
+      <h1>Get VA Buddy</h1>
+      <p>This site works best with JavaScript enabled, but you can still find printable VA forms at <a href="https://www.va.gov/find-forms/">va.gov/find-forms</a>.</p>
+    </noscript>
   </body>
 </html>

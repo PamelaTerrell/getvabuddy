@@ -1,0 +1,33 @@
+{
+  "name": "Get VA Buddy",
+  "short_name": "VA Buddy",
+  "description": "Get VA Buddy helps veterans—especially those who prefer paper—easily find, print, and submit VA forms without frustration.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#002b45",
+  "theme_color": "#002b45",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["veterans", "resources", "forms", "nonprofit"],
+  "lang": "en-US",
+  "dir": "ltr"
+}
